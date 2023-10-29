@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+  <meta charset="UTF-8">
+  <title>Video Element Lab</title>
+</head>
+<body>
 
-    <meta charset="UTF-8">
-    <title>Exceptional Realty Group - Luxury Homes - About</title>
-  </head>
-  <body>
+  <!-- Create a video element with controls and autoplay attributes -->
+  <video controls autoplay width="600" height="400">
+    <!-- Add a source tag for the MP4 video with src and type attributes -->
+    <source src="https://curriculum-content.s3.amazonaws.com/skills-front-end-web-development/real-estate-lab-assets/real-estate.mp4" type="video/mp4">
+    <!-- Add a fallback source tag for the OGG video with src and type attributes -->
+    <source src="https://curriculum-content.s3.amazonaws.com/skills-front-end-web-development/real-estate-lab-assets/real-estate.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
 
-    <h1>Exceptional</h1>
-    <h2>Realty Group</h2>
-
-    <!-- your code here! See README.md for deliverables -->
-
-  </body>
+</body>
 </html>
